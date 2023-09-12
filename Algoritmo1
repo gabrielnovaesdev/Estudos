@@ -1,0 +1,28 @@
+algoritmo "Estudo Algoritmo"
+ 
+var
+ 
+idade: inteiro
+ 
+inicio
+ 
+escreva("Coloque sua idade: ")
+leia(idade)
+ 
+se (idade <=12) entao
+  escreva("A pessoa é Infantil")
+ 
+senao
+ 
+se (idade >=13 e idade <=17) entao
+  escreva("A pessoa é Juvenil")
+ 
+senao
+  escreva("A pessoa é adultx")
+ 
+  fimse
+ 
+fimse
+ 
+ 
+fimalgoritmo
