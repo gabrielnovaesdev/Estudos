@@ -1,0 +1,30 @@
+algoritmo "Algoritmo 2"
+
+var
+
+Placa: inteiro
+
+inicio
+
+escreva("Informe o último número da placa do seu veículo: ")
+leia(Placa)
+
+escolha placa
+
+caso 0, 1, 2
+escreva("Não circular segunda-feira")
+caso 3, 4
+escreva("Não circular terça-feira")
+caso 5, 6
+escreva("Não circular Quarta-feira")
+caso 7, 8
+escreva("Não circular Quinta-feira")
+caso 9
+escreva("Não circular Sexta-feira")
+
+outrocaso
+escreva("Informação inválida!")
+
+fimescolha
+
+fimalgoritmo
