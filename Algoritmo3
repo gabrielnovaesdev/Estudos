@@ -1,0 +1,17 @@
+algoritmo "Calcular"
+
+var
+produto,contador, numeros: inteiro
+inicio
+
+produto <- 1
+
+para contador de 1 até 10 faça
+Escreva("Escreva o número", contador, " que seja inteiro e positivo: ")
+leia(numeros)
+produto <- produto * numeros
+fimpara
+
+escreva("O produto dos 10 números é: ",produto)
+
+fimalgoritmo
