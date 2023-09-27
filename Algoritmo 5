@@ -1,0 +1,39 @@
+Algoritmo "Caixa de supermercado"
+
+Var
+
+quantidade, quantidadetotal: inteiro
+nome: caractere
+preco, total: real
+contador: inteiro
+
+Inicio
+
+contador <- 0
+quantidade <- 1
+total <- 0
+
+enquanto contador < quantidade faca
+
+escreva("Digite a quantidade do produto: ")
+leia(quantidade)
+
+se quantidade > contador entao
+
+escreva("Digite o preço(unitário) do produto: ")
+leia(preco)
+
+quantidadetotal <- quantidadetotal + quantidade
+preco <- quantidade * preco
+total <- preco + total
+
+senao
+   escreva("Não há mais produtos no carrinho")
+fimse
+
+fimenquanto
+
+escreva("                                  O total de produtos: ",quantidadetotal)
+escreva("        O valor total da compra é: R$",total)
+
+Fimalgoritmo
