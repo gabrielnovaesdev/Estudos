@@ -1,4 +1,4 @@
-algoritmo "4"
+algoritmo "Produto de 10 números"
 
 var
 produto,contador, numeros: inteiro
