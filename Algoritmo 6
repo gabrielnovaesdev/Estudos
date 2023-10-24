@@ -1,0 +1,27 @@
+Algoritmo "Repeticao"
+
+Var
+    num1, num2: inteiro
+    soma: inteiro
+    opcao: caractere
+
+
+Inicio
+
+Repita
+
+  escreva("Digite um número inteiro: ")
+  leia(num1)
+  escreva("Digite outro número inteiro: ")
+  leia(num2)
+  
+  soma <- num1 + num2
+  escreva("A soma é: ",soma)
+
+  escreva("Você deseja continuar somando números? sim ou nao? ")
+  leia(opcao)
+  
+até (opcao = "nao")
+  
+
+Fimalgoritmo
