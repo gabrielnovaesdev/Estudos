@@ -1,0 +1,30 @@
+Algoritmo "Subrotina-Procedimento"
+ 
+Var
+ 
+num1:inteiro
+num2:inteiro
+ 
+Inicio
+ 
+procedimento soma(num1,num2:inteiro)
+ 
+var
+ 
+resultado:inteiro
+ 
+inicio
+ 
+    resultado <- num1 + num2
+    escreva("O resultado da soma é: ",resultado)
+    
+fimprocedimento
+ 
+escreva("Digite o primeiro número para a soma: ")
+leia(num1)
+escreva("Digite o segundo número para a soma: ")
+leia(num2)
+soma(num1,num2)
+ 
+ 
+Fimalgoritmo
