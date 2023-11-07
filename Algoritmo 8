@@ -1,0 +1,23 @@
+Algoritmo "Subrotina-Função"
+Var
+    a, b, result: inteiro
+ 
+Funcao Soma(x, y:inteiro):inteiro
+Var
+    soma: inteiro
+Inicio
+    retorne (x + y)
+fimFuncao
+ 
+Inicio
+    escreva("Digite o primeiro valor: ")
+    leia(a)
+ 
+    escreva("Digite o segundo valor: ")
+    leia(b)
+ 
+    result <- Soma(a, b)
+ 
+    escreva("A soma dos valores é igual a: ", result)
+Fimalgoritmo
+
