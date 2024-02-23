@@ -1,0 +1,67 @@
+Algoritmo "MaiorMenor" 
+
+Var 
+n1,n2,n3,n4,n5:inteiro 
+
+Inicio
+
+procedimento MaiorMenor(n1,n2,n3,n4,n5:inteiro) 
+
+var 
+maior,menor:inteiro 
+
+inicio 
+
+maior <- 0 
+menor <- n1 
+
+se n1 > maior entao 
+   maior <- n1 
+fimse 
+se n2 > maior entao 
+   maior <- n2 
+fimse 
+se n3 > maior entao 
+   maior <- n3 
+fimse 
+se n4 > maior entao 
+   maior <- n4 
+fimse 
+se n5 > maior entao 
+   maior <- n5 
+fimse   
+se n1 < menor entao 
+   menor <- n1 
+fimse 
+se n2 < menor entao 
+   menor <- n2 
+fimse 
+se n3 < menor entao 
+   menor <- n3 
+fimse 
+se n4 < menor entao 
+   menor <- n4 
+fimse 
+se n5 < menor entao 
+   menor <- n5 
+fimse 
+
+escreva("O maior número é :",maior) 
+escreva("O menor número é :",menor)   
+
+fimprocedimento 
+
+escreva("Digite o primeiro número inteiro: ") 
+leia(n1) 
+escreva("Digite o segundo número inteiro: ") 
+leia(n2) 
+escreva("Digite o terceiro número inteiro: ") 
+leia(n3) 
+escreva("Digite o quarto número inteiro: ") 
+leia(n4) 
+escreva("Digite o quinto número inteiro: ") 
+leia(n5) 
+
+MaiorMenor(n1,n2,n3,n4,n5:inteiro) 
+ 
+Fimalgoritmo 
