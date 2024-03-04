@@ -1,0 +1,24 @@
+Algoritmo "Recursividade - Fibonacci"
+
+Var
+
+num:inteiro
+
+funcao fibonacci(x:inteiro) : inteiro
+var
+Inicio
+
+     se ((x=0) OU (x=1)) entao
+        retorne x
+     senao
+        retorne fibonacci(x-1) + fibonacci(x-2)
+     fimse
+
+fimfuncao
+
+inicio
+escreva("Entre com um numero: ")
+leia(num)
+escreval("Fibonacci: ", fibonacci(num))
+
+Fimalgoritmo
