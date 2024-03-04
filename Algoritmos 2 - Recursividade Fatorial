@@ -1,0 +1,26 @@
+Algoritmo "Recursividade"
+
+Var
+
+valor: inteiro
+
+funcao fatorial(x:inteiro) : inteiro
+var
+Inicio
+
+    se x <= 1 entao
+       retorne 1
+    senao
+       retorne x * fatorial(x-1)
+    fimse
+    
+fimfuncao
+
+inicio
+
+escreva("Digite um número: ")
+leia(valor)
+escreval("Fatorial: ", fatorial(valor))
+
+
+Fimalgoritmo
