@@ -1,0 +1,23 @@
+Algoritmo "Algorimo 2 - Vetores"
+
+Var
+
+v:vetor [1..3] de real
+indice:inteiro
+media:real
+Inicio
+
+para indice de 1 ate 3 faça
+     escreva("Escreva a nota",indice," :")
+     leia(v[indice])
+fimpara
+
+para indice de 1 ate 3 faça
+     escreval("A nota",indice," foi:",v[indice])
+     media<-media+v[indice]
+fimpara
+
+escreval("A media final é:",media/3)
+
+
+Fimalgoritmo
